@@ -1,0 +1,99 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.project_trying"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:8:10-72
+14-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:8:27-69
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:image_picker] F:\project_trying_version1.2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+15-->[:image_picker] F:\project_trying_version1.2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->[:image_picker] F:\project_trying_version1.2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+16-->[:image_picker] F:\project_trying_version1.2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+17
+18    <application
+18-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:9:5-34:19
+19        android:name="io.flutter.app.FlutterApplication"
+19-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:11:9-57
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\6b399c2363bb098ebde1725d903cbda0\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:13:9-43
+23        android:label="Next"
+23-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:12:9-29
+24        android:usesCleartextTraffic="true" >
+24-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:10:5-40
+25        <activity
+25-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:14:9-25:20
+26            android:name="com.example.project_trying.MainActivity"
+26-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:15:13-41
+27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+27-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:18:13-163
+28            android:hardwareAccelerated="true"
+28-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:19:13-47
+29            android:launchMode="singleTop"
+29-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:16:13-43
+30            android:theme="@style/LaunchTheme"
+30-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:17:13-47
+31            android:windowSoftInputMode="adjustResize" >
+31-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:20:13-55
+32            <intent-filter>
+32-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:21:13-24:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:22:17-68
+33-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:22:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:23:17-76
+35-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:23:27-74
+36            </intent-filter>
+37        </activity>
+38        <!--
+39             Don't delete the meta-data below.
+40             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+41        -->
+42        <meta-data
+42-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:28:9-30:33
+43            android:name="flutterEmbedding"
+43-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:29:13-44
+44            android:value="2" />
+44-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:30:13-30
+45
+46        <uses-library
+46-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:31:14-33:39
+47            android:name="org.apache.http.legacy"
+47-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:32:12-49
+48            android:required="false" />
+48-->F:\project_trying_version1.2\android\app\src\main\AndroidManifest.xml:33:12-36
+49
+50        <provider
+50-->[:image_picker] F:\project_trying_version1.2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+51            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+51-->[:image_picker] F:\project_trying_version1.2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+52            android:authorities="com.example.project_trying.flutter.image_provider"
+52-->[:image_picker] F:\project_trying_version1.2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+53            android:exported="false"
+53-->[:image_picker] F:\project_trying_version1.2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+54            android:grantUriPermissions="true" >
+54-->[:image_picker] F:\project_trying_version1.2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+55            <meta-data
+55-->[:image_picker] F:\project_trying_version1.2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+56                android:name="android.support.FILE_PROVIDER_PATHS"
+56-->[:image_picker] F:\project_trying_version1.2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+57                android:resource="@xml/flutter_image_picker_file_paths" />
+57-->[:image_picker] F:\project_trying_version1.2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+58        </provider>
+59    </application>
+60
+61</manifest>
